@@ -1,7 +1,8 @@
 # CustomRequireEssentails
 使用一个标记[RequireEssentials(typeof(ThatComponent)...)]来在Inpector面板强调必备组件
 
-# T2.2
+# T2.3
+
 ### 应用场景: 
 - 当你的组件依赖某些引用项, 否则无法运行时, 可以使用此功能在Inspector面板强调必须组件
 ### 如何使用: 
@@ -18,3 +19,6 @@
     - 缺点: 
       - 已知一个bug: 使用后的脚本内没有回调方法面板启用复选框会消失
       - 现在只能检测与请求Gameobject自身组件
+
+### 更新信息: 
+更新了命名空间改为gstools
